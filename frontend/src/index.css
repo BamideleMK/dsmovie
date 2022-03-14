@@ -2,11 +2,15 @@
 
 :root {
   --color-primary: #4D41C0;
+  --base-color: #ffffff;
 }
 
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
 html, body {

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",       // To avoid putting ../.. in the path   | I can now use: assets/img/github.svg
     "target": "es5",
     "lib": [
       "dom",

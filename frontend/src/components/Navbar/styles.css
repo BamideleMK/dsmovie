@@ -1,0 +1,31 @@
+/* Style the dsmovie-nav-content */
+header {
+    background-color: var(--color-primary);     /* Always use VARIABLE CSS */
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+/* Let's Float and distribute these Contents Apart */
+.dsmovie-nav-content {
+    display: flex;
+    justify-content: space-between;     /* Horizontal alignment */
+    align-items: center;                /* Vertical alignment */
+    color: var(--base-color);
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-nav-content h1 {
+    /*line-height: normal;        /* May remove this line */
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.bamideleGithub {
+    margin: 0 0 0 .625rem;
+    /*color: var(--base-color);*/
+    font-size: 0.75rem;
+}
