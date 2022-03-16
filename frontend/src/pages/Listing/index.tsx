@@ -1,8 +1,10 @@
 /* CREATING A COMPONENT */
 
+import Pagination from "components/Pagination";
+
 function Listing() {
     return(
-        <h1>Listing Page</h1>
+        <Pagination />
     );
 }
 export default Listing;         // Available to be used or called ELSEWHERE
