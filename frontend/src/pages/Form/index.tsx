@@ -1,4 +1,5 @@
 // CREATING THE COMPONENT FOR FORM
+import { Link } from 'react-router-dom';
 import './style.css';
 function Form() {
     // Below is JAVASCRIPT Object, which Has to come before the RETURN statement
@@ -35,7 +36,9 @@ function Form() {
                         <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form >
-                <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                <Link to="/">       {/* This takes me back to the ROOT which is the LISTING */}
+                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                </Link>
             </div >
         </div >                     //  The RETURN will have to return this FORM body
     );

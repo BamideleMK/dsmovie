@@ -1,4 +1,5 @@
 import MovieScore from "components/MovieScore";
+import { Link } from "react-router-dom";  // Automatically imported when create the LINK
 
 function MovieCard() {
     // Insert the OBJECT you copy from FORM here
@@ -16,7 +17,9 @@ function MovieCard() {
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>      {/* We can copy the object we have in FORM */}
                 <MovieScore />      {/* Importing MovieScore as sub function */}
-                <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                <Link to={`/form/${movie.id}`}>     {/* Use Jquery Selector to select the Movie ID to display */}
+                    <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                </Link>     {/* Write the Path you want to Go */}
             </div>
         </div>
 
