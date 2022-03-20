@@ -1,0 +1,13 @@
+.dsmovie-stars-container {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dsmovie-stars-container svg {
+    width: 22px;
+    height: auto;
+}
+/* Don't forget to add this file to the head of the index.tsx file
+    use:    import './styles.css';
+*/
